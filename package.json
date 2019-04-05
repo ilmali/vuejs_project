@@ -10,10 +10,12 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.5.11",
+    "@chenfengyuan/vue-carousel": "^1.0.1",
+    "vue": "^2.6.10",
     "vue-resource": "^1.5.1",
     "vue-route": "^1.5.1",
-    "vue-router": "^3.0.2"
+    "vue-router": "^3.0.2",
+    "vue-slider-component": "^3.0.25"
   },
   "browserslist": [
     "> 1%",
@@ -29,7 +31,7 @@
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
     "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   }

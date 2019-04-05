@@ -1,11 +1,11 @@
 <template>
   <nav>
     <router-link to="/" class="main_page">
-      <img class="logo" src="http://www.abbiadigital.com/brainsystems/orphan/assets/images/logo_white.png" /> <h3>Harmonize</h3>
+      <img class="logo" src=".././assets/photo.png" /> <h3>Harmonize</h3>
     </router-link>
     <ul class="list">
-      <li><router-link to="/soundcloud">SoundCloud</router-link></li>
-      <li><router-link to="/musixmatch">MusiXmatch</router-link></li>
+      <li><router-link to="/soundcloud">Soundcloud</router-link></li>
+      <li><router-link to="/musixmatch">Musixmatch</router-link></li>
       <li><router-link to="/about">About</router-link></li>
       </ul>
       <button><a href="https://github.com/nglshman"><i class="far fa-heart"></i> GitHub</a></button>
@@ -24,6 +24,10 @@ export default {
 </script>
 
 <style>
+nav {
+  position: fixed;
+  z-index: 3;
+}
 .main_page {
   display: flex;
   text-decoration: none;
