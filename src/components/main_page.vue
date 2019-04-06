@@ -28,11 +28,12 @@
       <img class="img_description" src=".././assets/picture.jpg"/>
     </section>
     <section class="github_news">
-      <p>Other projects also can be viewed at the GitHub</p>
+      <p>Do you want to see other project ? Press GitHub</p>
       <button><a href="https://github.com/nglshman">GitHub</a></button>
     </section>
     <section class="footer">
-      <p>Design taken from the company Codester</p>
+      <p>Design taken from the company
+        <a href="http://www.codester.com/index.php?url=items/preview/8991/orphan-bootstrap-organisation-theme">Codester</a></p>
     </section>
   </section>
 </template>
@@ -54,6 +55,9 @@ export default {
 </script>
 
 <style scoped>
+body {
+  font-family: 'Muli', sans-serif;
+}
 .images {
   z-index: 1;
 }
@@ -81,6 +85,8 @@ export default {
   justify-self: center;
   grid-column-start: 1;
   grid-row-start: 3;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
 }
 .header_musixmatch {
   justify-self: center;
@@ -96,6 +102,8 @@ export default {
   justify-self: center;
   grid-column-start: 2;
   grid-row-start: 3;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
 }
 .info h1 {
   font-size: 30px;
@@ -113,6 +121,10 @@ export default {
 }
 .p_description {
   grid-column-start: 1;
+  align-self: center;
+  border: 25px solid #da4402;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
   background-color: #da4402;
   color: #fff;
 }
@@ -123,5 +135,29 @@ export default {
   border: 10px solid #da4402;
   border-radius: 25px;
 }
-
+.github_news {
+  display: grid;
+  margin: 30px 0;
+}
+.github_news p {
+  justify-self: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
+}
+.github_news button {
+  justify-self: center;
+}
+.footer{
+  display: grid;
+  background-color: #efefef;
+}
+.footer p {
+  justify-self: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+.footer p a {
+  text-decoration: none;
+  color: #000;
+}
 </style>
